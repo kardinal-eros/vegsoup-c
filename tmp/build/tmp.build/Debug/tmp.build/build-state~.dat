@@ -1,0 +1,59 @@
+Ttmp
+v7
+r0
+t372792623.450812
+cCheck dependencies
+cCompileC build/tmp.build/Debug/tmp.build/Objects-normal/x86_64/bar.o /Users/roli/Documents/tmp/bar.c normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Users/roli/Documents/tmp/bar.c
+c000000005088259900000000000000D7
+t1351099801
+s215
+i"bar.h"
+
+N/Users/roli/Documents/tmp/bar.h
+c000000005088259B00000000000000AD
+t1351099803
+s173
+
+N/Users/roli/Documents/tmp/build/Debug/libtmp.dylib
+t2
+s0
+
+N/Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/Objects-normal/x86_64/bar.o
+t2
+s0
+
+N/Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/Objects-normal/x86_64/tmp.LinkFileList
+c00000000508825AF0000000000000056
+t1351099823
+s86
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies372792623#372792623#0(0"0(0#1#0"17215230464#0"0#
+
+CCompileC build/tmp.build/Debug/tmp.build/Objects-normal/x86_64/bar.o /Users/roli/Documents/tmp/bar.c normal x86_64 c com.apple.compilers.gcc.4_2
+s372792623.383572
+e372792623.450750
+r0
+xCompileC
+xbuild/tmp.build/Debug/tmp.build/Objects-normal/x86_64/bar.o
+x/Users/roli/Documents/tmp/bar.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/roli/Documents/tmp/bar.c:10:
+o/Users/roli/Documents/tmp/bar.h:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'HelloWorld'
+o/Users/roli/Documents/tmp/bar.c:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'HelloWorld'
+lSLF07#2@39"Compile /Users/roli/Documents/tmp/bar.c372792623#372792623#0(282"In file included from /Users/roli/Documents/tmp/bar.c:10:/Users/roli/Documents/tmp/bar.h:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'HelloWorld'/Users/roli/Documents/tmp/bar.c:12: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'HelloWorld'2(4@68"Expected '=', ',', ';', 'asm' or '__attribute__' before 'HelloWorld'372792623#58#112#2(7@53"In file included from /Users/roli/Documents/tmp/bar.c372792623#18446744073709551615#0#0(6@31"/Users/roli/Documents/tmp/bar.c372792601#10#0#10#0#0"0(13@103"Expected '=', ',', ';', 'asm' or '__attribute__' before 'HelloWorld' in /Users/roli/Documents/tmp/bar.h372792623#18446744073709551615#0#0(6@31"/Users/roli/Documents/tmp/bar.h372792603#11#0#11#0#0"0(6@31"/Users/roli/Documents/tmp/bar.h372792603#11#0#11#0#19"expected * before *0(4@68"Expected '=', ',', ';', 'asm' or '__attribute__' before 'HelloWorld'372792623#170#112#0(6@31"/Users/roli/Documents/tmp/bar.c372792601#12#0#12#0#19"expected * before *0(0#0#31"/Users/roli/Documents/tmp/bar.c17217986048#1053"    cd /Users/roli/Documents/tmp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/tmp-generated-files.hmap -I/Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/tmp-own-target-headers.hmap -I/Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/tmp-all-target-headers.hmap -iquote /Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/tmp-project-headers.hmap -F/Users/roli/Documents/tmp/build/Debug -I/Users/roli/Documents/tmp/build/Debug/include -I/Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/DerivedSources/x86_64 -I/Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/DerivedSources -c /Users/roli/Documents/tmp/bar.c -o /Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/Objects-normal/x86_64/bar.o1#
+
+CLd /Users/roli/Documents/tmp/build/Debug/libtmp.dylib normal x86_64
+r0
+

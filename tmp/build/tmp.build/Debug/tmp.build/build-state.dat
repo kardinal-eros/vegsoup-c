@@ -1,0 +1,76 @@
+Ttmp
+v7
+r0
+t372798212.004852
+cCheck dependencies
+cCompileC build/tmp.build/Debug/tmp.build/Objects-normal/x86_64/bar.o /Users/roli/Documents/tmp/bar.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/roli/Documents/tmp/build/Debug/libtmp.dylib normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Users/roli/Documents/tmp/bar.c
+c000000005088588200000000000001BB
+t1351112834
+s443
+i"bar.h"
+i<stdio.h>
+i<string.h>
+
+N/Users/roli/Documents/tmp/bar.h
+c00000000508839BB0000000000000166
+t1351104955
+s358
+
+N/Users/roli/Documents/tmp/build/Debug/libtmp.dylib
+t1351105412
+s8672
+
+N/Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/Objects-normal/x86_64/bar.o
+t1351105411
+s2624
+
+N/Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/Objects-normal/x86_64/tmp.LinkFileList
+c00000000508825AF0000000000000056
+t1351099823
+s86
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies372798211#372798211#0(0"0(0#1#0"4317986816#0"0#
+
+CCompileC build/tmp.build/Debug/tmp.build/Objects-normal/x86_64/bar.o /Users/roli/Documents/tmp/bar.c normal x86_64 c com.apple.compilers.gcc.4_2
+s372798211.887860
+e372798211.974894
+r1
+xCompileC
+xbuild/tmp.build/Debug/tmp.build/Objects-normal/x86_64/bar.o
+x/Users/roli/Documents/tmp/bar.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Compile /Users/roli/Documents/tmp/bar.c372798211#372798211#0(0"0(0#0#31"/Users/roli/Documents/tmp/bar.c4317986816#1053"    cd /Users/roli/Documents/tmp    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/tmp-generated-files.hmap -I/Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/tmp-own-target-headers.hmap -I/Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/tmp-all-target-headers.hmap -iquote /Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/tmp-project-headers.hmap -F/Users/roli/Documents/tmp/build/Debug -I/Users/roli/Documents/tmp/build/Debug/include -I/Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/DerivedSources/x86_64 -I/Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/DerivedSources -c /Users/roli/Documents/tmp/bar.c -o /Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/Objects-normal/x86_64/bar.o0#
+
+CLd /Users/roli/Documents/tmp/build/Debug/libtmp.dylib normal x86_64
+s372798211.974939
+e372798212.004816
+r1
+xLd
+x/Users/roli/Documents/tmp/build/Debug/libtmp.dylib
+xnormal
+xx86_64
+lSLF07#2@55"Link /Users/roli/Documents/tmp/build/Debug/libtmp.dylib372798211#372798212#0(0"0(0#0#0"4317986816#539"    cd /Users/roli/Documents/tmp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/roli/Documents/tmp/build/Debug -F/Users/roli/Documents/tmp/build/Debug -filelist /Users/roli/Documents/tmp/build/tmp.build/Debug/tmp.build/Objects-normal/x86_64/tmp.LinkFileList -install_name /usr/local/lib/libtmp.dylib -mmacosx-version-min=10.6 -single_module -compatibility_version 1 -current_version 1 -o /Users/roli/Documents/tmp/build/Debug/libtmp.dylib0#
+

@@ -1,0 +1,2 @@
+/Users/roli/Documents/tmp/bar.c: In function 'test':
+/Users/roli/Documents/tmp/bar.c:22: warning: format '%d' expects type 'int', but argument 3 has type 'long unsigned int'
