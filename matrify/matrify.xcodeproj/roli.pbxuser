@@ -15,7 +15,7 @@
 					20,
 					352,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -30,14 +30,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 372790019;
-			PBXWorkspaceStateSaveDate = 372790019;
+			PBXPerProjectTemplateStateSaveDate = 372858842;
+			PBXWorkspaceStateSaveDate = 372858842;
 		};
 		perUserProjectItems = {
-			F84B5966163860D200845FBF /* PBXTextBookmark */ = F84B5966163860D200845FBF /* PBXTextBookmark */;
-			F84B59761638621400845FBF /* PBXTextBookmark */ = F84B59761638621400845FBF /* PBXTextBookmark */;
-			F84B59771638621400845FBF /* PBXTextBookmark */ = F84B59771638621400845FBF /* PBXTextBookmark */;
-			F84B59AD1638900200845FBF /* PBXTextBookmark */ = F84B59AD1638900200845FBF /* PBXTextBookmark */;
+			F8EFA97616395FE3002DE81C /* PBXTextBookmark */ = F8EFA97616395FE3002DE81C /* PBXTextBookmark */;
+			F8EFA97716395FE3002DE81C /* PBXTextBookmark */ = F8EFA97716395FE3002DE81C /* PBXTextBookmark */;
+			F8EFA97816395FE3002DE81C /* PBXTextBookmark */ = F8EFA97816395FE3002DE81C /* PBXTextBookmark */;
+			F8EFA97916395FE3002DE81C /* PBXTextBookmark */ = F8EFA97916395FE3002DE81C /* PBXTextBookmark */;
 		};
 		sourceControlManager = F84B59451638532200845FBF /* Source Control */;
 		userBuildSettings = {
@@ -62,73 +62,70 @@
 	};
 	F84B59471638532900845FBF /* bar.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 986}}";
-			sepNavSelRange = "{309, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {515, 366}}";
+			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 357}";
 			sepNavWindowFrame = "{{117, 64}, {750, 1114}}";
 		};
 	};
 	F84B59481638532900845FBF /* bar.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {773, 524}}";
+			sepNavIntBoundsRect = "{{0, 0}, {551, 366}}";
 			sepNavSelRange = "{345, 0}";
 			sepNavVisRange = "{0, 442}";
 			sepNavWindowFrame = "{{137, 235}, {952, 470}}";
 		};
 	};
-	F84B5966163860D200845FBF /* PBXTextBookmark */ = {
+	F8EFA96C16395FD8002DE81C /* sp.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = sp.h;
+		path = /Users/roli/Dropbox/Rpackages/sp/src/sp.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {515, 1521}}";
+			sepNavSelRange = "{201, 13}";
+			sepNavVisRange = "{0, 580}";
+		};
+	};
+	F8EFA97616395FE3002DE81C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F8EFA96C16395FD8002DE81C /* sp.h */;
+		name = "sp.h: 14";
+		rLen = 13;
+		rLoc = 201;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 0;
+	};
+	F8EFA97716395FE3002DE81C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F84B59481638532900845FBF /* bar.c */;
+		name = "bar.c: 19";
+		rLen = 0;
+		rLoc = 345;
+		rType = 0;
+		vrLen = 442;
+		vrLoc = 0;
+	};
+	F8EFA97816395FE3002DE81C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F84B59471638532900845FBF /* bar.h */;
 		name = "bar.h: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 375;
+		vrLen = 357;
 		vrLoc = 0;
 	};
-	F84B59761638621400845FBF /* PBXTextBookmark */ = {
+	F8EFA97916395FE3002DE81C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = F84B59481638532900845FBF /* bar.c */;
-		name = "bar.c: 18";
+		fRef = F84B59471638532900845FBF /* bar.h */;
+		name = "bar.h: 1";
 		rLen = 0;
-		rLoc = 345;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 393;
+		vrLen = 357;
 		vrLoc = 0;
-	};
-	F84B59771638621400845FBF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F84B59781638621400845FBF /* sp.h */;
-		rLen = 0;
-		rLoc = 9223372036854775807;
-		rType = 0;
-	};
-	F84B59781638621400845FBF /* sp.h */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.h;
-		name = sp.h;
-		path = /Users/roli/Dropbox/Rpackages/sp/src/sp.h;
-		sourceTree = "<absolute>";
-	};
-	F84B59AD1638900200845FBF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = F84B59AE1638900200845FBF /* sp.h */;
-		name = "sp.h: 14";
-		rLen = 13;
-		rLoc = 201;
-		rType = 0;
-		vrLen = 632;
-		vrLoc = 0;
-	};
-	F84B59AE1638900200845FBF /* sp.h */ = {
-		isa = PBXFileReference;
-		name = sp.h;
-		path = /Users/roli/Dropbox/Rpackages/sp/src/sp.h;
-		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {515, 1534}}";
-			sepNavSelRange = "{201, 13}";
-			sepNavVisRange = "{0, 632}";
-		};
 	};
 }
