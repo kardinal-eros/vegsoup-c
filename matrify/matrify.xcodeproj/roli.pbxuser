@@ -30,14 +30,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 372858842;
-			PBXWorkspaceStateSaveDate = 372858842;
+			PBXPerProjectTemplateStateSaveDate = 372859465;
+			PBXWorkspaceStateSaveDate = 372859465;
 		};
 		perUserProjectItems = {
 			F8EFA97616395FE3002DE81C /* PBXTextBookmark */ = F8EFA97616395FE3002DE81C /* PBXTextBookmark */;
 			F8EFA97716395FE3002DE81C /* PBXTextBookmark */ = F8EFA97716395FE3002DE81C /* PBXTextBookmark */;
-			F8EFA97816395FE3002DE81C /* PBXTextBookmark */ = F8EFA97816395FE3002DE81C /* PBXTextBookmark */;
-			F8EFA97916395FE3002DE81C /* PBXTextBookmark */ = F8EFA97916395FE3002DE81C /* PBXTextBookmark */;
+			F8EFA985163962EB002DE81C /* PBXTextBookmark */ = F8EFA985163962EB002DE81C /* PBXTextBookmark */;
+			F8EFA986163962EB002DE81C /* PBXTextBookmark */ = F8EFA986163962EB002DE81C /* PBXTextBookmark */;
 		};
 		sourceControlManager = F84B59451638532200845FBF /* Source Control */;
 		userBuildSettings = {
@@ -62,7 +62,7 @@
 	};
 	F84B59471638532900845FBF /* bar.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {515, 366}}";
+			sepNavIntBoundsRect = "{{0, 0}, {515, 359}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 357}";
 			sepNavWindowFrame = "{{117, 64}, {750, 1114}}";
@@ -82,11 +82,6 @@
 		name = sp.h;
 		path = /Users/roli/Dropbox/Rpackages/sp/src/sp.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {515, 1521}}";
-			sepNavSelRange = "{201, 13}";
-			sepNavVisRange = "{0, 580}";
-		};
 	};
 	F8EFA97616395FE3002DE81C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -108,7 +103,7 @@
 		vrLen = 442;
 		vrLoc = 0;
 	};
-	F8EFA97816395FE3002DE81C /* PBXTextBookmark */ = {
+	F8EFA985163962EB002DE81C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F84B59471638532900845FBF /* bar.h */;
 		name = "bar.h: 1";
@@ -118,7 +113,7 @@
 		vrLen = 357;
 		vrLoc = 0;
 	};
-	F8EFA97916395FE3002DE81C /* PBXTextBookmark */ = {
+	F8EFA986163962EB002DE81C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F84B59471638532900845FBF /* bar.h */;
 		name = "bar.h: 1";

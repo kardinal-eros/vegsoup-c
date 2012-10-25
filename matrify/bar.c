@@ -19,5 +19,5 @@
 
 void SP_PREFIX(test)(char** buf, int nps)
 {
-	printf("Testcode: %s, %d\n", *buf, sizeof(*buf));
+	printf("Testcode: %s, %ld\n", *buf, sizeof(*buf));
 }

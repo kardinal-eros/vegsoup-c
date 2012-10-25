@@ -298,7 +298,7 @@
 							<real>201</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>930 386 784 638 0 0 1920 1178 </string>
+						<string>785 335 784 638 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -326,12 +326,12 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F8EFA97916395FE3002DE81C</string>
+										<string>F8EFA986163962EB002DE81C</string>
 										<key>history</key>
 										<array>
 											<string>F8EFA97616395FE3002DE81C</string>
 											<string>F8EFA97716395FE3002DE81C</string>
-											<string>F8EFA97816395FE3002DE81C</string>
+											<string>F8EFA985163962EB002DE81C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -343,14 +343,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {576, 398}}</string>
+								<string>{{0, 0}, {576, 391}}</string>
 								<key>RubberWindowFrame</key>
-								<string>930 386 784 638 0 0 1920 1178 </string>
+								<string>785 335 784 638 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>398pt</string>
+							<string>391pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -363,14 +363,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 403}, {576, 194}}</string>
+								<string>{{0, 396}, {576, 201}}</string>
 								<key>RubberWindowFrame</key>
-								<string>930 386 784 638 0 0 1920 1178 </string>
+								<string>785 335 784 638 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>194pt</string>
+							<string>201pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -389,9 +389,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>F8EFA97A16395FE3002DE81C</string>
+				<string>F8EFA987163962EB002DE81C</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>F8EFA97B16395FE3002DE81C</string>
+				<string>F8EFA988163962EB002DE81C</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -533,7 +533,7 @@
 		<string>/Users/roli/Documents/vegsoup-c/matrify/matrify.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>930 386 784 638 0 0 1920 1178 </string>
+	<string>785 335 784 638 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -610,7 +610,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>F84B5964163860D100845FBF</string>
-				<string>F8EFA97C16395FE3002DE81C</string>
+				<string>F8EFA989163962EB002DE81C</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
