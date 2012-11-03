@@ -1,0 +1,16 @@
+Package: MyPackage
+Version: 0.0-1
+Date: 2012-10-03
+Title: Test Package to Implement C Toutine
+Author: Roland Kaiser <kardinal.eros@gmail.com>
+Maintainer: Roland Kaiser <kardinal.eros@gmail.com>
+Depends: R (>= 2.15.0)
+Description: A test package
+License: GPL (>= 2)
+URL: http://vegsoup.r-forge.r-project.org/
+LazyLoad: yes
+LazyData: yes
+Collate: MyClass-class.R
+         MyMethod-method.R
+         MyMethodCallExternalCode-method.R
+Respository: https://github.com/kardinal-eros/vegsoup-c.git

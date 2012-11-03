@@ -1,0 +1,11 @@
+useDynLib(MyPackage)
+
+import(methods)
+
+#exportPattern("^[^\\.]")
+exportPattern("^[[:alpha:]]+")
+exportMethods(
+)
+exportClasses(
+     "MyClass"
+)
