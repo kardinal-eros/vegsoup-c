@@ -1,0 +1,2 @@
+#	change to directory ´vegsoup-c and run
+Rcmd INSTALL --build MyPackage/pkg
