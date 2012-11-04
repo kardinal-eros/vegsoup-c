@@ -28,7 +28,8 @@ res <- new("MyClass",
 )
 
 MyMethod(res)
-MyMethodCallExternalCode(res)
+res <- MyMethodCallExternalCode(res)
+res
 
 #	types of results
 

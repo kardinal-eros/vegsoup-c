@@ -1,50 +1,34 @@
-/*
- *  bar.c
- *  tmp
- *
- *  Created by Roland Kaiser on 24.10.12.
- *  Copyright 2012 Universität Salzburg. All rights reserved.
- *
- */
-
-#include <R_ext/Arith.h>
-#include <R_ext/Print.h>
-#include <R.h>
-#include <Rmath.h>
-#include <float.h>
-
-void testcode(char *plot, char *abbr, char *layer, char *cov, int *mode){
-    char first_s[] = "He Börni,";
-    char second_s[] = "Du alter Hasenstauber!";
-    int i = 0;
-    int x = 0;
-    
-    char long_s[sizeof(first_s) + sizeof(second_s)];
-    while(first_s[i])
-    {
-        long_s[i] = first_s[i];
-        ++i;
-    }
-    long_s[i] = ' ';
-    ++i;
-    
-    while(second_s[x])
-    {
-        long_s[i] = second_s[x];
-        ++i;
-        ++x;
-    }
-    long_s[i] = '\0'; /* don't forget the null */
-    
-    printf(long_s);
-    putchar('\n');
-    
-    getchar();
-    return TRUE;
-    
-
-}
-
 /*	as.numeric return int */
 /*	as.character char */
 /*	as.binary bool */
+
+#include <R.h>
+#include <Rinternals.h>
+SEXP out(SEXP x, SEXP y) {	
+
+	
+	R_len_t i, j, nx = length(x), ny = length(y);
+	double tmp, *rx = REAL(x), *ry = REAL(y), *rans;
+	
+	SEXP ans, dim, dimnames, class;
+	
+	PROTECT(ans = allocVector(REALSXP, nx*ny));
+	rans = REAL(ans);
+	for(i = 0; i < nx; i++) {
+	tmp = rx[i];
+	for(j = 0; j < ny; j++)
+		rans[i + nx*j] = tmp * ry[j];
+	}
+	PROTECT(dim = allocVector(INTSXP, 2));
+	INTEGER(dim)[0] = nx;
+	INTEGER(dim)[1] = ny;
+	setAttrib(ans, R_DimSymbol, dim);
+	PROTECT(dimnames = allocVector(VECSXP, 2));
+	SET_VECTOR_ELT(dimnames, 0, getAttrib(x, R_NamesSymbol));
+	SET_VECTOR_ELT(dimnames, 1, getAttrib(y, R_NamesSymbol));
+	setAttrib(ans, R_DimNamesSymbol, dimnames);
+	PROTECT(class = allocVector(STRSXP, 1));
+	SET_STRING_ELT(class, 0, mkChar("matrix")); classgets(ans, class);
+	UNPROTECT(4);
+	return(ans);
+}	
