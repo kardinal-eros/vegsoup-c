@@ -13,4 +13,5 @@ LazyData: yes
 Collate: MyClass-class.R
          MyMethod-method.R
          MyMethodCallExternalCode-method.R
+         MyMethodRversion-method.R
 Respository: https://github.com/kardinal-eros/vegsoup-c.git

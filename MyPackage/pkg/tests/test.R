@@ -7,6 +7,9 @@ showClass("MyClass")
 data(testdata)
 
 species <- testdata
+species <- read.csv2("~/Documents/vegsoup-data/windsfeld dta/species.csv",
+	colClasses = "character")
+	
 #	head(species)
 
 #	species$plot
@@ -19,17 +22,17 @@ scale <- list(scale = "Braun-Blanquet",
 	lims = c(1, 2, 3, 4, 8, 18, 38, 68, 88))
 	
 #	layers
-layer <- unique(testdata$layer)
+layer <- unique(species$layer)
 
-res <- new("MyClass",
+dta <- new("MyClass",
 	species = species,
 	scale = scale,
 	layers = layer
 )
 
-MyMethod(res)
-res <- MyMethodCallExternalCode(res)
-res
+MyMethod(dta)
+res <- MyMethodCallExternalCode(dta)
+res <- MyMethodRversion(dta, mode = 3)
 
 #	types of results
 
