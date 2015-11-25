@@ -1,17 +1,14 @@
-Package: MyPackage
+Package: vegdistCL
 Version: 0.0-1
-Date: 2012-10-03
-Title: Test Package to Implement C Toutine
+Date: 2015-11-25
+Title: Open CL implementation of vegan's vegdist function
 Author: Roland Kaiser <kardinal.eros@gmail.com>
 Maintainer: Roland Kaiser <kardinal.eros@gmail.com>
-Depends: R (>= 2.15.0)
-Description: A test package
+Depends: R (>= 2.0.0), OpenCL (>= 0.1-3)
+Description: Accelerate computations for big distance matrices.
 License: GPL (>= 2)
 URL: http://vegsoup.r-forge.r-project.org/
 LazyLoad: yes
 LazyData: yes
-Collate: MyClass-class.R
-         MyMethod-method.R
-         MyMethodCallExternalCode-method.R
-         MyMethodRversion-method.R
+Collate: vegdistCL.R
 Respository: https://github.com/kardinal-eros/vegsoup-c.git

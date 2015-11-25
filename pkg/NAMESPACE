@@ -1,4 +1,4 @@
-useDynLib(MyPackage)
+useDynLib(vegdistOCL)
 
 import(methods)
 
@@ -6,6 +6,4 @@ import(methods)
 exportPattern("^[[:alpha:]]+")
 exportMethods(
 )
-exportClasses(
-     "MyClass"
-)
+
