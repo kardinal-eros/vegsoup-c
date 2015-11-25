@@ -1,7 +1,5 @@
 useDynLib(vegdistOCL)
 
-import(methods)
-
 #exportPattern("^[^\\.]")
 exportPattern("^[[:alpha:]]+")
 exportMethods(

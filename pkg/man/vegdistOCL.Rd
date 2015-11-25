@@ -1,12 +1,12 @@
 \encoding{UTF-8}
-\name{vegdistCL}
-\alias{vegdistCL}
+\name{vegdistOCL}
+\alias{vegdistOCL}
 \title{ Open CL implementation of vegan's vegdist function }
 \description{
 
 }
 
-\usage{vegdist(x, method="bray", binary=FALSE, diag=FALSE, upper=FALSE,
+\usage{vegdistOCL(x, method="bray", binary=FALSE, diag=FALSE, upper=FALSE,
         na.rm = FALSE, ...) } 
 \arguments{
   \item{x}{Community data matrix.}
@@ -27,18 +27,10 @@
 }
 
 \details{
- 
+ Nothing here yet.
 }
 \value{
   Should provide a drop-in replacement for \code{\link{vegdist}} and
   return a distance object of the same type. 
-}
-\references{
-
-}
-
-\author{  }
-
-\examples{
 }
 \keyword{ multivariate }

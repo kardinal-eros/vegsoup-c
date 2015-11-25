@@ -1,4 +1,4 @@
-Package: vegdistCL
+Package: vegdistOCL
 Version: 0.0-1
 Date: 2015-11-25
 Title: Open CL implementation of vegan's vegdist function
@@ -10,5 +10,5 @@ License: GPL (>= 2)
 URL: http://vegsoup.r-forge.r-project.org/
 LazyLoad: yes
 LazyData: yes
-Collate: vegdistCL.R
+Collate: vegdistOCL.R
 Respository: https://github.com/kardinal-eros/vegsoup-c.git
