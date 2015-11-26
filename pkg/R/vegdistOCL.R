@@ -26,17 +26,21 @@
         warning("data have empty species which influence the results im method ",
                 dQuote(inm))
     if (method == 6) # gower, but no altGower
-        x <- decostand(x, "range", 2, na.rm = TRUE, ...)
+        x <- vegan::decostand(x, "range", 2, na.rm = TRUE, ...)
     if (binary) 
-        x <- decostand(x, "pa")
+        x <- vegan::decostand(x, "pa")
+
     N <- nrow(x <- as.matrix(x))
+ 
     if (method %in% c(7, 13, 15) && !identical(all.equal(as.integer(x), 
                                                      as.vector(x)), TRUE)) 
         warning("results may be meaningless with non-integer data in method ",
                 dQuote(inm))
+ 
     d <- .C("veg_distance", x = as.double(x), nr = N, nc = ncol(x), 
             d = double(N * (N - 1)/2), diag = as.integer(FALSE), 
             method = as.integer(method), NAOK = na.rm, PACKAGE = "vegdistOCL")$d
+ 
     if (method == 10) 
         d <- 2 * d/(1 + d)
     d[d < ZAP] <- 0
