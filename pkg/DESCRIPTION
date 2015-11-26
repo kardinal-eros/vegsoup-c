@@ -11,4 +11,5 @@ URL: http://vegsoup.r-forge.r-project.org/
 LazyLoad: yes
 LazyData: yes
 Collate: vegdistOCL.R
+         zzz.R
 Respository: https://github.com/kardinal-eros/vegsoup-c.git
